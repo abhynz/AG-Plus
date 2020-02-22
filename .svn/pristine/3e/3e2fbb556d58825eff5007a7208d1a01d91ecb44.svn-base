@@ -1,0 +1,47 @@
+package com.slokam.test.automation.common.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+
+import com.base.SafariBrowser;
+import com.slokam.test.automation.common.dto.UserDTO;
+import com.slokam.test.automation.common.locators.Locators;
+import com.slokam.test.automation.common.selenium.SafeActions;
+
+public class RegistrationPage  extends SafeActions implements Locators{
+
+	WebDriver driver;
+	public RegistrationPage(WebDriver driver) {
+		super(driver);
+		this.driver = driver;
+	}
+
+	
+	public void verifyRegistraionPage(){
+		
+		Assert.assertEquals(safeGetText(REGISTRATION_HEADING, 10), "CREATE A NEW ACCOUNT");
+	}
+	
+	public void createAccount(UserDTO dto){
+		safeType(USERNAME, dto.getUserName(), 10);
+		safeType(PASSWORD,dto.getPassword());
+		safeType(By.cssSelector("#user_password_confirmation"),dto.getConfirm());
+		driver.findElement(By.cssSelector("#user_firstname")).sendKeys(dto.getFirstName());
+		driver.findElement(By.cssSelector("#user_lastname")).sendKeys(dto.getLastName());
+		driver.findElement(By.cssSelector("#user_mail")).sendKeys(dto.getEmail());
+		driver.findElement(By.cssSelector("#new_user input[value='Submit']")).click();
+	}
+	
+	public String verifyErrorMessage(){
+		
+		String actualErrorMessage = safeGetText(By.cssSelector(".errorExplanation ul li"), 10);
+		return actualErrorMessage;
+	}
+	
+	public String verifyErrorLocation(){
+		
+		return safeGetText(ERROR_LOCATION, 10);
+	}
+	
+}

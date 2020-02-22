@@ -1,0 +1,12 @@
+package com.slokam.test.automation.testscripts.basic;
+
+import org.testng.annotations.Test;
+
+public class BharathTest {
+
+	
+	@Test
+	public void test1(){
+		System.out.println("I am test");
+	}
+}

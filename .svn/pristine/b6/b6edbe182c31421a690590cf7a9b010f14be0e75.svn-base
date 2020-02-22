@@ -1,0 +1,171 @@
+2014-12-15 08:13:48 INFO  BaseClass:87 - <h2>--------------------SuiteRunner Log-------------------------<h2>
+2014-12-15 08:13:48 INFO  BaseClass:123 - Browser name present in config file :firefox
+2014-12-15 08:13:48 INFO  BaseClass:131 - -----------------STARTED RUNNING SELENIUM TESTS ON LOCAL MACHINE------------------
+2014-12-15 08:13:49 INFO  FirefoxBrowser:42 - Launching firefox with a new profile
+2014-12-15 08:14:00 INFO  BaseClass:142 - what driver is running? firefox
+2014-12-15 08:14:00 INFO  BaseClass:103 - Initiated Webdriver...
+2014-12-15 08:14:00 INFO  TestListener:134 - <h2>**************CURRENTLY RUNNING TEST************ testPasswordMissmatch</h2>
+2014-12-15 08:14:00 INFO  Weblistener:36 - Before navigating to url printing the browser associated capabilities
+2014-12-15 08:14:08 INFO  Weblistener:41 - WebDriver has navigated to:'https://slokam.openproject-demo.org'
+2014-12-15 08:14:08 INFO  Sync:498 - Waiting for presence of element By.id: q
+2014-12-15 08:14:09 INFO  Sync:218 - Waiting until element By.selector: .login is clickable
+2014-12-15 08:14:09 INFO  Sync:225 - Element By.selector: .login is displayed and is clickable
+2014-12-15 08:14:10 INFO  Weblistener:56 - Trying to click on:  css selector: .login
+2014-12-15 08:14:10 INFO  Weblistener:62 - Clicked on:  css selector: .login
+2014-12-15 08:14:10 INFO  SafeActions:87 - Clicked on the element By.selector: .login
+2014-12-15 08:14:10 INFO  Sync:218 - Waiting until element By.selector: a[href='/account/register'] is clickable
+2014-12-15 08:14:10 INFO  Sync:225 - Element By.selector: a[href='/account/register'] is displayed and is clickable
+2014-12-15 08:14:10 INFO  Weblistener:56 - Trying to click on:  css selector: a[href='/account/register']
+2014-12-15 08:14:11 INFO  Weblistener:62 - Clicked on:  css selector: a[href='/account/register']
+2014-12-15 08:14:11 INFO  SafeActions:87 - Clicked on the element By.selector: a[href='/account/register']
+2014-12-15 08:14:13 INFO  Sync:125 - Waiting for presence of element By.xpath: //h2
+2014-12-15 08:14:15 INFO  Sync:133 - Element By.xpath: //h2 is displayed
+2014-12-15 08:14:15 INFO  Sync:125 - Waiting for presence of element By.selector: #user_login
+2014-12-15 08:14:15 INFO  Sync:133 - Element By.selector: #user_login is displayed
+2014-12-15 08:14:15 INFO  Weblistener:46 - Value of the: css selector: #user_login before any changes made
+2014-12-15 08:14:15 INFO  Weblistener:51 - Value of element after change:  css selector: #user_login
+2014-12-15 08:14:16 INFO  Sync:125 - Waiting for presence of element By.selector: #user_password
+2014-12-15 08:14:16 INFO  Sync:133 - Element By.selector: #user_password is displayed
+2014-12-15 08:14:16 INFO  Weblistener:46 - Value of the: css selector: #user_password before any changes made
+2014-12-15 08:14:17 INFO  Weblistener:51 - Value of element after change:  css selector: #user_password
+2014-12-15 08:14:17 INFO  Sync:125 - Waiting for presence of element By.selector: #user_password_confirmation
+2014-12-15 08:14:17 INFO  Sync:133 - Element By.selector: #user_password_confirmation is displayed
+2014-12-15 08:14:17 INFO  Weblistener:46 - Value of the: css selector: #user_password_confirmation before any changes made
+2014-12-15 08:14:17 INFO  Weblistener:51 - Value of element after change:  css selector: #user_password_confirmation
+2014-12-15 08:14:17 INFO  Weblistener:46 - Value of the: css selector: #user_firstname before any changes made
+2014-12-15 08:14:17 INFO  Weblistener:51 - Value of element after change:  css selector: #user_firstname
+2014-12-15 08:14:17 INFO  Weblistener:46 - Value of the: css selector: #user_lastname before any changes made
+2014-12-15 08:14:17 INFO  Weblistener:51 - Value of element after change:  css selector: #user_lastname
+2014-12-15 08:14:17 INFO  Weblistener:46 - Value of the: css selector: #user_mail before any changes made
+2014-12-15 08:14:17 INFO  Weblistener:51 - Value of element after change:  css selector: #user_mail
+2014-12-15 08:14:17 INFO  Weblistener:56 - Trying to click on:  css selector: #new_user input[value='Submit']
+2014-12-15 08:14:20 INFO  Weblistener:62 - Clicked on:  css selector: #new_user input[value='Submit']
+2014-12-15 08:14:21 INFO  Sync:125 - Waiting for presence of element By.selector: .errorExplanation ul li
+2014-12-15 08:14:21 INFO  Sync:133 - Element By.selector: .errorExplanation ul li is displayed
+2014-12-15 08:14:21 INFO  TestListener:118 - ###############################################################
+2014-12-15 08:14:21 INFO  TestListener:119 - SUCCESS ---------testPasswordMissmatch has passed-----------------
+2014-12-15 08:14:21 INFO  TestListener:120 - ###############################################################
+2014-12-15 08:14:22 INFO  TestListener:134 - <h2>**************CURRENTLY RUNNING TEST************ verifyCreateUser</h2>
+2014-12-15 08:14:22 INFO  Weblistener:36 - Before navigating to url printing the browser associated capabilities
+2014-12-15 08:14:24 INFO  Weblistener:41 - WebDriver has navigated to:'https://slokam.openproject-demo.org'
+2014-12-15 08:14:24 INFO  Sync:498 - Waiting for presence of element By.id: q
+2014-12-15 08:14:24 INFO  Sync:218 - Waiting until element By.selector: .login is clickable
+2014-12-15 08:14:24 INFO  Sync:225 - Element By.selector: .login is displayed and is clickable
+2014-12-15 08:14:24 INFO  Weblistener:56 - Trying to click on:  css selector: .login
+2014-12-15 08:14:25 INFO  Weblistener:62 - Clicked on:  css selector: .login
+2014-12-15 08:14:25 INFO  SafeActions:87 - Clicked on the element By.selector: .login
+2014-12-15 08:14:25 INFO  Sync:218 - Waiting until element By.selector: a[href='/account/register'] is clickable
+2014-12-15 08:14:25 INFO  Sync:225 - Element By.selector: a[href='/account/register'] is displayed and is clickable
+2014-12-15 08:14:25 INFO  Weblistener:56 - Trying to click on:  css selector: a[href='/account/register']
+2014-12-15 08:14:25 INFO  Weblistener:62 - Clicked on:  css selector: a[href='/account/register']
+2014-12-15 08:14:25 INFO  SafeActions:87 - Clicked on the element By.selector: a[href='/account/register']
+2014-12-15 08:14:28 INFO  Sync:125 - Waiting for presence of element By.xpath: //h2
+2014-12-15 08:14:28 INFO  Sync:133 - Element By.xpath: //h2 is displayed
+2014-12-15 08:14:28 INFO  Sync:125 - Waiting for presence of element By.selector: #user_login
+2014-12-15 08:14:28 INFO  Sync:133 - Element By.selector: #user_login is displayed
+2014-12-15 08:14:29 INFO  Weblistener:46 - Value of the: css selector: #user_login before any changes made
+2014-12-15 08:14:29 INFO  Weblistener:51 - Value of element after change:  css selector: #user_login
+2014-12-15 08:14:29 INFO  Sync:125 - Waiting for presence of element By.selector: #user_password
+2014-12-15 08:14:29 INFO  Sync:133 - Element By.selector: #user_password is displayed
+2014-12-15 08:14:29 INFO  Weblistener:46 - Value of the: css selector: #user_password before any changes made
+2014-12-15 08:14:29 INFO  Weblistener:51 - Value of element after change:  css selector: #user_password
+2014-12-15 08:14:29 INFO  Sync:125 - Waiting for presence of element By.selector: #user_password_confirmation
+2014-12-15 08:14:29 INFO  Sync:133 - Element By.selector: #user_password_confirmation is displayed
+2014-12-15 08:14:30 INFO  Weblistener:46 - Value of the: css selector: #user_password_confirmation before any changes made
+2014-12-15 08:14:30 INFO  Weblistener:51 - Value of element after change:  css selector: #user_password_confirmation
+2014-12-15 08:14:30 INFO  Weblistener:46 - Value of the: css selector: #user_firstname before any changes made
+2014-12-15 08:14:30 INFO  Weblistener:51 - Value of element after change:  css selector: #user_firstname
+2014-12-15 08:14:30 INFO  Weblistener:46 - Value of the: css selector: #user_lastname before any changes made
+2014-12-15 08:14:30 INFO  Weblistener:51 - Value of element after change:  css selector: #user_lastname
+2014-12-15 08:14:30 INFO  Weblistener:46 - Value of the: css selector: #user_mail before any changes made
+2014-12-15 08:14:30 INFO  Weblistener:51 - Value of element after change:  css selector: #user_mail
+2014-12-15 08:14:30 INFO  Weblistener:56 - Trying to click on:  css selector: #new_user input[value='Submit']
+2014-12-15 08:14:33 INFO  Weblistener:62 - Clicked on:  css selector: #new_user input[value='Submit']
+2014-12-15 08:14:33 INFO  Sync:125 - Waiting for presence of element By.selector: .errorExplanation ul li
+2014-12-15 08:14:33 INFO  Sync:133 - Element By.selector: .errorExplanation ul li is displayed
+2014-12-15 08:14:33 INFO  TestListener:118 - ###############################################################
+2014-12-15 08:14:33 INFO  TestListener:119 - SUCCESS ---------verifyCreateUser has passed-----------------
+2014-12-15 08:14:33 INFO  TestListener:120 - ###############################################################
+2014-12-15 08:14:33 INFO  TestListener:134 - <h2>**************CURRENTLY RUNNING TEST************ verifyCreateUser</h2>
+2014-12-15 08:14:33 INFO  Weblistener:36 - Before navigating to url printing the browser associated capabilities
+2014-12-15 08:14:36 INFO  Weblistener:41 - WebDriver has navigated to:'https://slokam.openproject-demo.org'
+2014-12-15 08:14:36 INFO  Sync:498 - Waiting for presence of element By.id: q
+2014-12-15 08:14:37 INFO  Sync:218 - Waiting until element By.selector: .login is clickable
+2014-12-15 08:14:37 INFO  Sync:225 - Element By.selector: .login is displayed and is clickable
+2014-12-15 08:14:37 INFO  Weblistener:56 - Trying to click on:  css selector: .login
+2014-12-15 08:14:37 INFO  Weblistener:62 - Clicked on:  css selector: .login
+2014-12-15 08:14:37 INFO  SafeActions:87 - Clicked on the element By.selector: .login
+2014-12-15 08:14:37 INFO  Sync:218 - Waiting until element By.selector: a[href='/account/register'] is clickable
+2014-12-15 08:14:38 INFO  Sync:225 - Element By.selector: a[href='/account/register'] is displayed and is clickable
+2014-12-15 08:14:38 INFO  Weblistener:56 - Trying to click on:  css selector: a[href='/account/register']
+2014-12-15 08:14:38 INFO  Weblistener:62 - Clicked on:  css selector: a[href='/account/register']
+2014-12-15 08:14:38 INFO  SafeActions:87 - Clicked on the element By.selector: a[href='/account/register']
+2014-12-15 08:14:40 INFO  Sync:125 - Waiting for presence of element By.xpath: //h2
+2014-12-15 08:14:41 INFO  Sync:133 - Element By.xpath: //h2 is displayed
+2014-12-15 08:14:41 INFO  Sync:125 - Waiting for presence of element By.selector: #user_login
+2014-12-15 08:14:41 INFO  Sync:133 - Element By.selector: #user_login is displayed
+2014-12-15 08:14:41 INFO  Weblistener:46 - Value of the: css selector: #user_login before any changes made
+2014-12-15 08:14:41 INFO  Weblistener:51 - Value of element after change:  css selector: #user_login
+2014-12-15 08:14:41 INFO  Sync:125 - Waiting for presence of element By.selector: #user_password
+2014-12-15 08:14:41 INFO  Sync:133 - Element By.selector: #user_password is displayed
+2014-12-15 08:14:42 INFO  Weblistener:46 - Value of the: css selector: #user_password before any changes made
+2014-12-15 08:14:42 INFO  Weblistener:51 - Value of element after change:  css selector: #user_password
+2014-12-15 08:14:42 INFO  Sync:125 - Waiting for presence of element By.selector: #user_password_confirmation
+2014-12-15 08:14:42 INFO  Sync:133 - Element By.selector: #user_password_confirmation is displayed
+2014-12-15 08:14:42 INFO  Weblistener:46 - Value of the: css selector: #user_password_confirmation before any changes made
+2014-12-15 08:14:42 INFO  Weblistener:51 - Value of element after change:  css selector: #user_password_confirmation
+2014-12-15 08:14:42 INFO  Weblistener:46 - Value of the: css selector: #user_firstname before any changes made
+2014-12-15 08:14:42 INFO  Weblistener:51 - Value of element after change:  css selector: #user_firstname
+2014-12-15 08:14:43 INFO  Weblistener:46 - Value of the: css selector: #user_lastname before any changes made
+2014-12-15 08:14:43 INFO  Weblistener:51 - Value of element after change:  css selector: #user_lastname
+2014-12-15 08:14:43 INFO  Weblistener:46 - Value of the: css selector: #user_mail before any changes made
+2014-12-15 08:14:43 INFO  Weblistener:51 - Value of element after change:  css selector: #user_mail
+2014-12-15 08:14:43 INFO  Weblistener:56 - Trying to click on:  css selector: #new_user input[value='Submit']
+2014-12-15 08:14:46 INFO  Weblistener:62 - Clicked on:  css selector: #new_user input[value='Submit']
+2014-12-15 08:14:47 INFO  Sync:125 - Waiting for presence of element By.selector: .errorExplanation ul li
+2014-12-15 08:14:47 INFO  Sync:133 - Element By.selector: .errorExplanation ul li is displayed
+2014-12-15 08:14:47 INFO  TestListener:118 - ###############################################################
+2014-12-15 08:14:47 INFO  TestListener:119 - SUCCESS ---------verifyCreateUser has passed-----------------
+2014-12-15 08:14:47 INFO  TestListener:120 - ###############################################################
+2014-12-15 08:14:47 INFO  TestListener:134 - <h2>**************CURRENTLY RUNNING TEST************ verifyCreateUser</h2>
+2014-12-15 08:14:47 INFO  Weblistener:36 - Before navigating to url printing the browser associated capabilities
+2014-12-15 08:14:49 INFO  Weblistener:41 - WebDriver has navigated to:'https://slokam.openproject-demo.org'
+2014-12-15 08:14:49 INFO  Sync:498 - Waiting for presence of element By.id: q
+2014-12-15 08:14:50 INFO  Sync:218 - Waiting until element By.selector: .login is clickable
+2014-12-15 08:14:50 INFO  Sync:225 - Element By.selector: .login is displayed and is clickable
+2014-12-15 08:14:50 INFO  Weblistener:56 - Trying to click on:  css selector: .login
+2014-12-15 08:14:51 INFO  Weblistener:62 - Clicked on:  css selector: .login
+2014-12-15 08:14:51 INFO  SafeActions:87 - Clicked on the element By.selector: .login
+2014-12-15 08:14:51 INFO  Sync:218 - Waiting until element By.selector: a[href='/account/register'] is clickable
+2014-12-15 08:14:51 INFO  Sync:225 - Element By.selector: a[href='/account/register'] is displayed and is clickable
+2014-12-15 08:14:51 INFO  Weblistener:56 - Trying to click on:  css selector: a[href='/account/register']
+2014-12-15 08:14:52 INFO  Weblistener:62 - Clicked on:  css selector: a[href='/account/register']
+2014-12-15 08:14:52 INFO  SafeActions:87 - Clicked on the element By.selector: a[href='/account/register']
+2014-12-15 08:14:54 INFO  Sync:125 - Waiting for presence of element By.xpath: //h2
+2014-12-15 08:14:55 INFO  Sync:133 - Element By.xpath: //h2 is displayed
+2014-12-15 08:14:55 INFO  Sync:125 - Waiting for presence of element By.selector: #user_login
+2014-12-15 08:14:55 INFO  Sync:133 - Element By.selector: #user_login is displayed
+2014-12-15 08:14:55 INFO  Weblistener:46 - Value of the: css selector: #user_login before any changes made
+2014-12-15 08:14:55 INFO  Weblistener:51 - Value of element after change:  css selector: #user_login
+2014-12-15 08:14:55 INFO  Sync:125 - Waiting for presence of element By.selector: #user_password
+2014-12-15 08:14:55 INFO  Sync:133 - Element By.selector: #user_password is displayed
+2014-12-15 08:14:55 INFO  Weblistener:46 - Value of the: css selector: #user_password before any changes made
+2014-12-15 08:14:56 INFO  Weblistener:51 - Value of element after change:  css selector: #user_password
+2014-12-15 08:14:56 INFO  Sync:125 - Waiting for presence of element By.selector: #user_password_confirmation
+2014-12-15 08:14:56 INFO  Sync:133 - Element By.selector: #user_password_confirmation is displayed
+2014-12-15 08:14:56 INFO  Weblistener:46 - Value of the: css selector: #user_password_confirmation before any changes made
+2014-12-15 08:14:56 INFO  Weblistener:51 - Value of element after change:  css selector: #user_password_confirmation
+2014-12-15 08:14:56 INFO  Weblistener:46 - Value of the: css selector: #user_firstname before any changes made
+2014-12-15 08:14:56 INFO  Weblistener:51 - Value of element after change:  css selector: #user_firstname
+2014-12-15 08:14:56 INFO  Weblistener:46 - Value of the: css selector: #user_lastname before any changes made
+2014-12-15 08:14:56 INFO  Weblistener:51 - Value of element after change:  css selector: #user_lastname
+2014-12-15 08:14:56 INFO  Weblistener:46 - Value of the: css selector: #user_mail before any changes made
+2014-12-15 08:14:56 INFO  Weblistener:51 - Value of element after change:  css selector: #user_mail
+2014-12-15 08:14:56 INFO  Weblistener:56 - Trying to click on:  css selector: #new_user input[value='Submit']
+2014-12-15 08:14:59 INFO  Weblistener:62 - Clicked on:  css selector: #new_user input[value='Submit']
+2014-12-15 08:15:00 INFO  Sync:125 - Waiting for presence of element By.selector: .errorExplanation ul li
+2014-12-15 08:15:00 INFO  Sync:133 - Element By.selector: .errorExplanation ul li is displayed
+2014-12-15 08:15:00 INFO  TestListener:118 - ###############################################################
+2014-12-15 08:15:00 INFO  TestListener:119 - SUCCESS ---------verifyCreateUser has passed-----------------
+2014-12-15 08:15:00 INFO  TestListener:120 - ###############################################################
+2014-12-15 08:15:01 INFO  BaseClass:216 - after suite

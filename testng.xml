@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="OpenProject" verbose="10" parallel="none"
+	thread-count="1">
+	
+	<listeners>
+	<listener class-name ="com.listener.TestListener"></listener>
+	</listeners>
+	<test name="registration">
+		<parameter name="browserType" value="chrome"></parameter>
+		<classes>
+			<class name="com.slokam.test.automation.testscripts.basic.CreateCompanyTest"></class>
+		</classes>
+	</test>
+</suite>

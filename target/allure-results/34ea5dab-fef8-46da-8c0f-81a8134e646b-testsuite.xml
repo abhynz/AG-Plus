@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1582350734169" stop="1582350750179" version="1.4.4">
+    <name>OpenProject</name>
+    <title>OpenProject : registration[browserType=chrome]</title>
+    <test-cases>
+        <test-case start="1582350745320" stop="1582350749259" status="broken">
+            <name>createCompanyWithPublicAccess</name>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException
+	at com.slokam.test.automation.testscripts.basic.CreateCompanyTest.createCompanyWithPublicAccess(CreateCompanyTest.java:30)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-ACLN3OR"/>
+                <label name="thread" value="6188@DESKTOP-ACLN3OR.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

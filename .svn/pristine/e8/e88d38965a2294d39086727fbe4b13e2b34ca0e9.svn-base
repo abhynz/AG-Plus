@@ -1,0 +1,18 @@
+package com.slokam.test.automation.common.pages;
+
+import org.apache.bcel.generic.LoadClass;
+import org.openqa.selenium.WebDriver;
+
+import com.slokam.test.automation.common.locators.Locators;
+import com.slokam.test.automation.common.selenium.SafeActions;
+
+public class AdminstrationPage extends SafeActions implements Locators {
+
+	
+	WebDriver driver;
+	public AdminstrationPage(WebDriver driver) {
+		super(driver);
+		this.driver = driver;
+	}
+
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1582346118007" stop="1582346147067" version="1.4.4">
+    <name>OpenProject</name>
+    <title>OpenProject : registration[browserType=chrome]</title>
+    <test-cases>
+        <test-case start="1582346129326" stop="1582346146186" status="failed">
+            <name>createCompanyWithPublicAccess</name>
+            <failure>
+                <message>AssertionError: Element By.xpath: //div[@name='country'] was not clickable
+com.slokam.test.automation.common.selenium.SafeActions.safeClick(SafeActions.java:110)
+com.slokam.test.automation.common.pages.CreateCompanyPage.createPublicAccessCompany(CreateCompanyPage.java:35)
+com.slokam.test.automation.testscripts.basic.CreateCompanyTest.createCompanyWithPublicAccess(CreateCompanyTest.java:44)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+org.testng.TestRunner.privateRun(TestRunner.java:771)
+org.testng.TestRunner.run(TestRunner.java:621)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+org.testng.SuiteRunner.run(SuiteRunner.java:259)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+org.testng.TestNG.run(TestNG.java:1033)
+org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)</message>
+                <stack-trace>java.lang.AssertionError: Element By.xpath: //div[@name='country'] was not clickable
+com.slokam.test.automation.common.selenium.SafeActions.safeClick(SafeActions.java:110)
+com.slokam.test.automation.common.pages.CreateCompanyPage.createPublicAccessCompany(CreateCompanyPage.java:35)
+com.slokam.test.automation.testscripts.basic.CreateCompanyTest.createCompanyWithPublicAccess(CreateCompanyTest.java:44)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+org.testng.TestRunner.privateRun(TestRunner.java:771)
+org.testng.TestRunner.run(TestRunner.java:621)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+org.testng.SuiteRunner.run(SuiteRunner.java:259)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+org.testng.TestNG.run(TestNG.java:1033)
+org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+	at com.testng.Assert.fail(Assert.java:202)
+	at com.slokam.test.automation.common.selenium.SafeActions.safeClick(SafeActions.java:110)
+	at com.slokam.test.automation.common.pages.CreateCompanyPage.createPublicAccessCompany(CreateCompanyPage.java:35)
+	at com.slokam.test.automation.testscripts.basic.CreateCompanyTest.createCompanyWithPublicAccess(CreateCompanyTest.java:44)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-ACLN3OR"/>
+                <label name="thread" value="9940@DESKTOP-ACLN3OR.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

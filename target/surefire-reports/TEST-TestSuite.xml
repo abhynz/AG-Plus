@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="30.601" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\autofm\target\test-classes;D:\autofm\target\classes;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Home\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Home\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Home\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Home\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Home\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Home\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Home\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Home\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Home\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Home\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Home\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Home\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Home\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Home\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Home\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Home\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Home\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Home\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Home\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Home\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Home\.m2\repository\org\apache\poi\poi\3.11-beta2\poi-3.11-beta2.jar;C:\Users\Home\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Home\.m2\repository\org\catools\extentreport\0.1.8\extentreport-0.1.8.jar;C:\Users\Home\.m2\repository\org\catools\common\0.1.8\common-0.1.8.jar;C:\Users\Home\.m2\repository\com\github\lalyos\jfiglet\0.0.8\jfiglet-0.0.8.jar;C:\Users\Home\.m2\repository\com\diogonunes\JCDP\2.0.3.1\JCDP-2.0.3.1.jar;C:\Users\Home\.m2\repository\org\fusesource\jansi\jansi\1.15\jansi-1.15.jar;C:\Users\Home\.m2\repository\com\jcabi\jcabi-log\0.17.4\jcabi-log-0.17.4.jar;C:\Users\Home\.m2\repository\com\jcabi\jcabi-aspects\0.22.5\jcabi-aspects-0.22.5.jar;C:\Users\Home\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\Home\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.12.1\log4j-slf4j-impl-2.12.1.jar;C:\Users\Home\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;C:\Users\Home\.m2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;C:\Users\Home\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Home\.m2\repository\javax\xml\bind\activation\1.0.2\activation-1.0.2.jar;C:\Users\Home\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.4.0-b180830.0438\jaxb-runtime-2.4.0-b180830.0438.jar;C:\Users\Home\.m2\repository\org\glassfish\jaxb\txw2\2.4.0-b180830.0438\txw2-2.4.0-b180830.0438.jar;C:\Users\Home\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\Home\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\Home\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Home\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.1.1\javax.ws.rs-api-2.1.1.jar;C:\Users\Home\.m2\repository\org\codehaus\jettison\jettison\1.4.0\jettison-1.4.0.jar;C:\Users\Home\.m2\repository\org\apache\commons\commons-text\1.6\commons-text-1.6.jar;C:\Users\Home\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Home\.m2\repository\org\apache\commons\commons-csv\1.6\commons-csv-1.6.jar;C:\Users\Home\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Home\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.9.8\jackson-dataformat-yaml-2.9.8.jar;C:\Users\Home\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\Home\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\Home\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.8\jackson-annotations-2.9.8.jar;C:\Users\Home\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Home\.m2\repository\com\googlecode\lambdaj\lambdaj\2.3.3\lambdaj-2.3.3.jar;C:\Users\Home\.m2\repository\org\hamcrest\hamcrest-all\1.1\hamcrest-all-1.1.jar;C:\Users\Home\.m2\repository\org\objenesis\objenesis\1.2\objenesis-1.2.jar;C:\Users\Home\.m2\repository\cglib\cglib-nodep\2.2\cglib-nodep-2.2.jar;C:\Users\Home\.m2\repository\org\bitbucket\cowwoc\diff-match-patch\1.2\diff-match-patch-1.2.jar;C:\Users\Home\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.10.7\libphonenumber-8.10.7.jar;C:\Users\Home\.m2\repository\uk\com\robust-it\cloning\1.9.2\cloning-1.9.2.jar;C:\Users\Home\.m2\repository\org\jmockit\jmockit\1.44\jmockit-1.44.jar;C:\Users\Home\.m2\repository\org\catools\common-testng\0.1.8\common-testng-0.1.8.jar;C:\Users\Home\.m2\repository\org\catools\common-security\0.1.8\common-security-0.1.8.jar;C:\Users\Home\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\Home\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Home\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Home\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Home\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Home\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Home\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Home\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Home\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Home\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\Home\.m2\repository\org\sikuli\sikuli-api\1.2.0\sikuli-api-1.2.0.jar;C:\Users\Home\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar;C:\Users\Home\.m2\repository\org\sikuli\sikuli-core\1.2.2\sikuli-core-1.2.2.jar;C:\Users\Home\.m2\repository\org\bytedeco\javacpp\0.9\javacpp-0.9.jar;C:\Users\Home\.m2\repository\org\bytedeco\javacpp-presets\opencv\2.4.9-0.9\opencv-2.4.9-0.9.jar;C:\Users\Home\.m2\repository\org\piccolo2d\piccolo2d-extras\1.3.1\piccolo2d-extras-1.3.1.jar;C:\Users\Home\.m2\repository\org\piccolo2d\piccolo2d-core\1.3.1\piccolo2d-core-1.3.1.jar;C:\Users\Home\.m2\repository\ru\yandex\qatools\allure\allure-java-aspects\1.4.4\allure-java-aspects-1.4.4.jar;C:\Users\Home\.m2\repository\org\aspectj\aspectjrt\1.8.3\aspectjrt-1.8.3.jar;C:\Users\Home\.m2\repository\ru\yandex\qatools\allure\allure-java-annotations\1.4.4\allure-java-annotations-1.4.4.jar;C:\Users\Home\.m2\repository\ru\yandex\qatools\allure\allure-testng-adaptor\1.4.4\allure-testng-adaptor-1.4.4.jar;C:\Users\Home\.m2\repository\ru\yandex\qatools\allure\allure-java-adaptor-api\1.4.4\allure-java-adaptor-api-1.4.4.jar;C:\Users\Home\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.7\jaxb-impl-2.2.7.jar;C:\Users\Home\.m2\repository\com\sun\xml\bind\jaxb-core\2.2.7\jaxb-core-2.2.7.jar;C:\Users\Home\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.12\FastInfoset-1.2.12.jar;C:\Users\Home\.m2\repository\javax\xml\bind\jsr173_api\1.0\jsr173_api-1.0.jar;C:\Users\Home\.m2\repository\org\apache\tika\tika-core\1.5\tika-core-1.5.jar;C:\Users\Home\.m2\repository\ru\yandex\qatools\allure\allure-model\1.4.4\allure-model-1.4.4.jar;C:\Users\Home\.m2\repository\org\jvnet\jaxb2_commons\jaxb2-basics-runtime\0.6.5\jaxb2-basics-runtime-0.6.5.jar;C:\Users\Home\.m2\repository\ru\yandex\qatools\properties\properties-loader\1.5\properties-loader-1.5.jar;C:\Users\Home\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.3\commons-beanutils-core-1.8.3.jar;C:\Users\Home\.m2\repository\org\slf4j\slf4j-log4j12\1.7.7\slf4j-log4j12-1.7.7.jar;C:\Users\Home\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\Home\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_221\bin"/>
+    <property name="sun.java.command" value="C:\Users\Home\AppData\Local\Temp\surefire2535660451206417838\surefirebooter6015052128097814602.jar C:\Users\Home\AppData\Local\Temp\surefire2535660451206417838 2020-02-22T09-30-01_209-jvmRun1 surefire3321777720864071564tmp surefire_02308716609579614303tmp"/>
+    <property name="surefire.test.class.path" value="D:\autofm\target\test-classes;D:\autofm\target\classes;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Home\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Home\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Home\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Home\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Home\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Home\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Home\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Home\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Home\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Home\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Home\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Home\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Home\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Home\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Home\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Home\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Home\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Home\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Home\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Home\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Home\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Home\.m2\repository\org\apache\poi\poi\3.11-beta2\poi-3.11-beta2.jar;C:\Users\Home\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Home\.m2\repository\org\catools\extentreport\0.1.8\extentreport-0.1.8.jar;C:\Users\Home\.m2\repository\org\catools\common\0.1.8\common-0.1.8.jar;C:\Users\Home\.m2\repository\com\github\lalyos\jfiglet\0.0.8\jfiglet-0.0.8.jar;C:\Users\Home\.m2\repository\com\diogonunes\JCDP\2.0.3.1\JCDP-2.0.3.1.jar;C:\Users\Home\.m2\repository\org\fusesource\jansi\jansi\1.15\jansi-1.15.jar;C:\Users\Home\.m2\repository\com\jcabi\jcabi-log\0.17.4\jcabi-log-0.17.4.jar;C:\Users\Home\.m2\repository\com\jcabi\jcabi-aspects\0.22.5\jcabi-aspects-0.22.5.jar;C:\Users\Home\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\Home\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.12.1\log4j-slf4j-impl-2.12.1.jar;C:\Users\Home\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;C:\Users\Home\.m2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;C:\Users\Home\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Home\.m2\repository\javax\xml\bind\activation\1.0.2\activation-1.0.2.jar;C:\Users\Home\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.4.0-b180830.0438\jaxb-runtime-2.4.0-b180830.0438.jar;C:\Users\Home\.m2\repository\org\glassfish\jaxb\txw2\2.4.0-b180830.0438\txw2-2.4.0-b180830.0438.jar;C:\Users\Home\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\Home\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\Home\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Home\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.1.1\javax.ws.rs-api-2.1.1.jar;C:\Users\Home\.m2\repository\org\codehaus\jettison\jettison\1.4.0\jettison-1.4.0.jar;C:\Users\Home\.m2\repository\org\apache\commons\commons-text\1.6\commons-text-1.6.jar;C:\Users\Home\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Home\.m2\repository\org\apache\commons\commons-csv\1.6\commons-csv-1.6.jar;C:\Users\Home\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Home\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.9.8\jackson-dataformat-yaml-2.9.8.jar;C:\Users\Home\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\Home\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\Home\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.8\jackson-annotations-2.9.8.jar;C:\Users\Home\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Home\.m2\repository\com\googlecode\lambdaj\lambdaj\2.3.3\lambdaj-2.3.3.jar;C:\Users\Home\.m2\repository\org\hamcrest\hamcrest-all\1.1\hamcrest-all-1.1.jar;C:\Users\Home\.m2\repository\org\objenesis\objenesis\1.2\objenesis-1.2.jar;C:\Users\Home\.m2\repository\cglib\cglib-nodep\2.2\cglib-nodep-2.2.jar;C:\Users\Home\.m2\repository\org\bitbucket\cowwoc\diff-match-patch\1.2\diff-match-patch-1.2.jar;C:\Users\Home\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.10.7\libphonenumber-8.10.7.jar;C:\Users\Home\.m2\repository\uk\com\robust-it\cloning\1.9.2\cloning-1.9.2.jar;C:\Users\Home\.m2\repository\org\jmockit\jmockit\1.44\jmockit-1.44.jar;C:\Users\Home\.m2\repository\org\catools\common-testng\0.1.8\common-testng-0.1.8.jar;C:\Users\Home\.m2\repository\org\catools\common-security\0.1.8\common-security-0.1.8.jar;C:\Users\Home\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\Home\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Home\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Home\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Home\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Home\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Home\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Home\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Home\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Home\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\Home\.m2\repository\org\sikuli\sikuli-api\1.2.0\sikuli-api-1.2.0.jar;C:\Users\Home\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar;C:\Users\Home\.m2\repository\org\sikuli\sikuli-core\1.2.2\sikuli-core-1.2.2.jar;C:\Users\Home\.m2\repository\org\bytedeco\javacpp\0.9\javacpp-0.9.jar;C:\Users\Home\.m2\repository\org\bytedeco\javacpp-presets\opencv\2.4.9-0.9\opencv-2.4.9-0.9.jar;C:\Users\Home\.m2\repository\org\piccolo2d\piccolo2d-extras\1.3.1\piccolo2d-extras-1.3.1.jar;C:\Users\Home\.m2\repository\org\piccolo2d\piccolo2d-core\1.3.1\piccolo2d-core-1.3.1.jar;C:\Users\Home\.m2\repository\ru\yandex\qatools\allure\allure-java-aspects\1.4.4\allure-java-aspects-1.4.4.jar;C:\Users\Home\.m2\repository\org\aspectj\aspectjrt\1.8.3\aspectjrt-1.8.3.jar;C:\Users\Home\.m2\repository\ru\yandex\qatools\allure\allure-java-annotations\1.4.4\allure-java-annotations-1.4.4.jar;C:\Users\Home\.m2\repository\ru\yandex\qatools\allure\allure-testng-adaptor\1.4.4\allure-testng-adaptor-1.4.4.jar;C:\Users\Home\.m2\repository\ru\yandex\qatools\allure\allure-java-adaptor-api\1.4.4\allure-java-adaptor-api-1.4.4.jar;C:\Users\Home\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.7\jaxb-impl-2.2.7.jar;C:\Users\Home\.m2\repository\com\sun\xml\bind\jaxb-core\2.2.7\jaxb-core-2.2.7.jar;C:\Users\Home\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.12\FastInfoset-1.2.12.jar;C:\Users\Home\.m2\repository\javax\xml\bind\jsr173_api\1.0\jsr173_api-1.0.jar;C:\Users\Home\.m2\repository\org\apache\tika\tika-core\1.5\tika-core-1.5.jar;C:\Users\Home\.m2\repository\ru\yandex\qatools\allure\allure-model\1.4.4\allure-model-1.4.4.jar;C:\Users\Home\.m2\repository\org\jvnet\jaxb2_commons\jaxb2-basics-runtime\0.6.5\jaxb2-basics-runtime-0.6.5.jar;C:\Users\Home\.m2\repository\ru\yandex\qatools\properties\properties-loader\1.5\properties-loader-1.5.jar;C:\Users\Home\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.3\commons-beanutils-core-1.8.3.jar;C:\Users\Home\.m2\repository\org\slf4j\slf4j-log4j12\1.7.7\slf4j-log4j12-1.7.7.jar;C:\Users\Home\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\Home\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_221"/>
+    <property name="basedir" value="D:\autofm"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Home\AppData\Local\Temp\surefire2535660451206417838\surefirebooter6015052128097814602.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_221\lib\resources.jar;C:\Program Files\Java\jre1.8.0_221\lib\rt.jar;C:\Program Files\Java\jre1.8.0_221\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_221\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_221\lib\jce.jar;C:\Program Files\Java\jre1.8.0_221\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_221\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_221\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="Home"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_221\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Home\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Home\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="D:\autofm"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Home\AppData\Local\Microsoft\WindowsApps;;D:\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_221\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="createCompanyWithPublicAccess" classname="com.slokam.test.automation.testscripts.basic.CreateCompanyTest" time="15.853">
+    <failure message="Element By.xpath: //div[@name=&apos;country&apos;] was not clickable&#10;com.slokam.test.automation.common.selenium.SafeActions.safeClick(SafeActions.java:110)&#10;com.slokam.test.automation.common.pages.CreateCompanyPage.createPublicAccessCompany(CreateCompanyPage.java:35)&#10;com.slokam.test.automation.testscripts.basic.CreateCompanyTest.createCompanyWithPublicAccess(CreateCompanyTest.java:44)&#10;sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#10;sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#10;java.lang.reflect.Method.invoke(Unknown Source)&#10;org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)&#10;org.testng.internal.Invoker.invokeMethod(Invoker.java:583)&#10;org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)&#10;org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)&#10;org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)&#10;org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)&#10;org.testng.TestRunner.privateRun(TestRunner.java:648)&#10;org.testng.TestRunner.run(TestRunner.java:505)&#10;org.testng.SuiteRunner.runTest(SuiteRunner.java:455)&#10;org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)&#10;org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)&#10;org.testng.SuiteRunner.run(SuiteRunner.java:364)&#10;org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#10;org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)&#10;org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)&#10;org.testng.TestNG.runSuitesLocally(TestNG.java:1137)&#10;org.testng.TestNG.runSuites(TestNG.java:1049)&#10;org.testng.TestNG.run(TestNG.java:1017)&#10;org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)&#10;org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)&#10;org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)&#10;org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)&#10;org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)&#10;org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)&#10;org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)" type="java.lang.AssertionError">java.lang.AssertionError: 
+Element By.xpath: //div[@name='country'] was not clickable
+com.slokam.test.automation.common.selenium.SafeActions.safeClick(SafeActions.java:110)
+com.slokam.test.automation.common.pages.CreateCompanyPage.createPublicAccessCompany(CreateCompanyPage.java:35)
+com.slokam.test.automation.testscripts.basic.CreateCompanyTest.createCompanyWithPublicAccess(CreateCompanyTest.java:44)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+	at com.slokam.test.automation.testscripts.basic.CreateCompanyTest.createCompanyWithPublicAccess(CreateCompanyTest.java:44)
+</failure>
+    <system-out><![CDATA[...
+... TestNG 6.14.3 by Cédric Beust (cedric@beust.com)
+...
+
+$$$$  EXTENT report attached
+2020-02-22 09:30:05 INFO  BaseClass:83 - <h2>--------------------SuiteRunner Log-------------------------<h2>
+browserType = chrome
+2020-02-22 09:30:05 INFO  BaseClass:120 - Browser name present in config file :chrome
+2020-02-22 09:30:05 INFO  BaseClass:121 - -----------------STARTED RUNNING SELENIUM TESTS ON LOCAL MACHINE------------------
+Browser value is ::chrome
+2020-02-22 09:30:11 INFO  BaseClass:100 - Initiated Webdriver...
+2020-02-22 09:30:16 INFO  TestListener:145 - <h2>**************CURRENTLY RUNNING TEST************ createCompanyWithPublicAccess</h2>
+2020-02-22 09:30:16 INFO  TestListener:145 - <h2>**************CURRENTLY RUNNING TEST************ createCompanyWithPublicAccess</h2>
+2020-02-22 09:30:21 INFO  Sync:125 - Waiting for presence of element By.name: email
+2020-02-22 09:30:21 INFO  Sync:133 - Element By.name: email is displayed
+2020-02-22 09:30:21 INFO  Sync:125 - Waiting for presence of element By.name: password
+2020-02-22 09:30:22 INFO  Sync:133 - Element By.name: password is displayed
+2020-02-22 09:30:22 INFO  Sync:218 - Waiting until element By.xpath: //div[text()='Login'] is clickable
+2020-02-22 09:30:22 INFO  Sync:225 - Element By.xpath: //div[text()='Login'] is displayed and is clickable
+2020-02-22 09:30:22 INFO  SafeActions:89 - Clicked on the element By.xpath: //div[text()='Login']
+2020-02-22 09:30:22 INFO  Sync:218 - Waiting until element By.xpath: //div[@id='main-nav']//span[text()='Companies'] is clickable
+2020-02-22 09:30:24 INFO  Sync:225 - Element By.xpath: //div[@id='main-nav']//span[text()='Companies'] is displayed and is clickable
+2020-02-22 09:30:24 INFO  SafeActions:89 - Clicked on the element By.xpath: //div[@id='main-nav']//span[text()='Companies']
+2020-02-22 09:30:24 INFO  Sync:125 - Waiting for presence of element By.xpath: //div[@id='main-nav']//span[text()='Home']
+2020-02-22 09:30:24 INFO  Sync:133 - Element By.xpath: //div[@id='main-nav']//span[text()='Home'] is displayed
+2020-02-22 09:30:25 INFO  Sync:218 - Waiting until element By.xpath: //div[@id='dashboard-toolbar']//a is clickable
+2020-02-22 09:30:25 INFO  Sync:225 - Element By.xpath: //div[@id='dashboard-toolbar']//a is displayed and is clickable
+2020-02-22 09:30:25 INFO  SafeActions:89 - Clicked on the element By.xpath: //div[@id='dashboard-toolbar']//a
+2020-02-22 09:30:25 INFO  Sync:125 - Waiting for presence of element By.name: name
+2020-02-22 09:30:25 INFO  Sync:133 - Element By.name: name is displayed
+2020-02-22 09:30:26 INFO  Sync:125 - Waiting for presence of element By.name: url
+2020-02-22 09:30:26 INFO  Sync:133 - Element By.name: url is displayed
+2020-02-22 09:30:28 INFO  Sync:125 - Waiting for presence of element By.name: name
+2020-02-22 09:30:28 INFO  Sync:133 - Element By.name: name is displayed
+2020-02-22 09:30:28 INFO  Sync:125 - Waiting for presence of element By.name: city
+2020-02-22 09:30:28 INFO  Sync:133 - Element By.name: city is displayed
+2020-02-22 09:30:29 INFO  Sync:125 - Waiting for presence of element By.name: state
+2020-02-22 09:30:29 INFO  Sync:133 - Element By.name: state is displayed
+2020-02-22 09:30:30 INFO  Sync:125 - Waiting for presence of element By.name: zip
+2020-02-22 09:30:30 INFO  Sync:133 - Element By.name: zip is displayed
+2020-02-22 09:30:30 INFO  Sync:218 - Waiting until element By.xpath: //div[@name='country'] is clickable
+2020-02-22 09:30:30 INFO  Sync:225 - Element By.xpath: //div[@name='country'] is displayed and is clickable
+2020-02-22 09:30:32 ERROR SafeActions:109 - Element By.xpath: //div[@name='country'] was not clickable
+com.slokam.test.automation.common.selenium.SafeActions.safeClick(SafeActions.java:109)
+com.slokam.test.automation.common.pages.CreateCompanyPage.createPublicAccessCompany(CreateCompanyPage.java:35)
+com.slokam.test.automation.testscripts.basic.CreateCompanyTest.createCompanyWithPublicAccess(CreateCompanyTest.java:44)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+2020-02-22 09:30:32 ERROR TestListener:46 - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+2020-02-22 09:30:32 ERROR TestListener:47 - ERROR ----------createCompanyWithPublicAccess has failed-----------------
+2020-02-22 09:30:32 ERROR TestListener:48 - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+$$$$  EXTENT report attached
+2020-02-22 09:30:32 ERROR TestListener:46 - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+2020-02-22 09:30:32 ERROR TestListener:47 - ERROR ----------createCompanyWithPublicAccess has failed-----------------
+2020-02-22 09:30:32 ERROR TestListener:48 - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+$$$$  EXTENT report attached
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/Home/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.12.1/log4j-slf4j-impl-2.12.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/Home/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 9393
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1582344007.869][WARNING]: This version of ChromeDriver has not been tested with Chrome version 80.
+[1582344009.880][WARNING]: Timed out connecting to Chrome, retrying...
+Feb 22, 2020 9:30:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1582344014.023][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+</testsuite>

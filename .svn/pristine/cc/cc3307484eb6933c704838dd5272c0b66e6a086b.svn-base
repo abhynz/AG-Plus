@@ -1,0 +1,53 @@
+package com.slokam.test.automation.testscripts.basic;
+
+import org.testng.annotations.Test;
+
+import com.base.BaseSetup;
+import com.dataprovider.ConfigManager;
+import com.slokam.test.automation.common.pages.HomePage;
+import com.slokam.test.automation.common.pages.ProfilePage;
+import com.slokam.test.automation.common.pages.ProjectsPage;
+import com.slokam.test.automation.common.pages.ProjectsSettingPage;
+
+/**
+ * @author asus
+ *  This is test script
+ */
+public class Login  extends BaseSetup{
+
+	ConfigManager envProps = new  ConfigManager("environment");
+	
+	
+	HomePage homePage ;
+	ProfilePage profilePage ; 
+	ProjectsPage projectsPage;
+	ProjectsSettingPage projectsSettingPage;
+	
+	@Test
+	public void test1(){
+		System.out.println("I am test");
+	}
+	//@Test
+	public void verifyProfile() throws Exception
+	{
+		String user= envProps.getProperty("login_user");
+		String pass = envProps.getProperty("login_password");
+				
+				
+		getDriver().get(envProps.getProperty("url"));
+		homePage = new HomePage(getDriver());
+		profilePage = new ProfilePage(getDriver());
+		projectsPage  = new ProjectsPage(getDriver());
+		projectsSettingPage = new ProjectsSettingPage(getDriver());
+		homePage.verifyHomePage();
+		homePage.login(user, pass);
+		profilePage.verifyProfilePage();
+		profilePage.clickOnAdministration();
+		projectsPage.verifyProjectPage();
+		projectsPage.clickOnFirstProject();
+		projectsSettingPage.verifyProjectSettingsPage();
+		projectsSettingPage.updateProject();
+		projectsSettingPage.verifyMessage();
+	}
+	
+}

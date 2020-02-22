@@ -1,0 +1,11 @@
+package com.slokam.test.automation.common.locators;
+
+import org.openqa.selenium.By;
+
+public interface Locators {
+
+	
+	public static By SEARCH_ELEMENT = By.id("q");
+	public static By SIGNIN_BTN = By.xpath("//a[@title='Sign in']");
+	
+}

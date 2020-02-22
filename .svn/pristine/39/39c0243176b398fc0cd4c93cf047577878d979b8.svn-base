@@ -1,0 +1,29 @@
+package com.slokam.test.automation.common.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+
+import com.slokam.test.automation.common.locators.Locators;
+import com.slokam.test.automation.common.selenium.SafeActions;
+
+public class ProfilePage extends SafeActions implements Locators {
+	WebDriver driver;
+	public ProfilePage(WebDriver driver) {
+		super(driver);
+		this.driver = driver;
+	}
+
+	
+	
+	public void verifyProfilePage(){
+		
+		Assert.assertTrue(isElementPresent(By.xpath("//a[@title='My page']")));
+	}
+	
+	
+	public void clickOnAdministration(){
+		safeClick(By.xpath("//a[@title='Modules']"));
+		safeClick(By.xpath("//a[@title='Administration']"),LONGWAIT);
+	}
+}

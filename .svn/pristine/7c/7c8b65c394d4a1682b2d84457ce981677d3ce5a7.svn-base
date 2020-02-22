@@ -1,0 +1,31 @@
+package com.slokam.test.automation.common.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+
+import com.slokam.test.automation.common.locators.Locators;
+import com.slokam.test.automation.common.selenium.SafeActions;
+
+public class HomePage extends SafeActions implements Locators {
+
+	WebDriver driver ;
+	public HomePage(WebDriver driver) {
+		super(driver);
+		this.driver = driver;
+	}
+
+	
+	
+	public void verifyHomePage(){
+		Assert.assertTrue(isElementPresent(SEARCH_ELEMENT));
+	}
+	
+	
+	public void login(String user,String pass){
+		safeClick(SIGNIN_BTN, SHORTWAIT);
+		safeType(By.id("username-pulldown"), user);
+		safeType(By.id("password-pulldown"), pass);
+		safeClick(By.name("login"));
+	}
+}

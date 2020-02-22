@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1582347741894" stop="1582347768888" version="1.4.4">
+    <name>OpenProject</name>
+    <title>OpenProject : registration[browserType=chrome]</title>
+    <test-cases>
+        <test-case start="1582347752990" stop="1582347767910" status="passed">
+            <name>createCompanyWithPublicAccess</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-ACLN3OR"/>
+                <label name="thread" value="6260@DESKTOP-ACLN3OR.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

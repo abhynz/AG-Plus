@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [OpenProject]" parallel="none">
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="com.listener.TestListener"/>
+  </listeners>
+  <test name="registration(failed)" parallel="none">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.slokam.test.automation.testscripts.basic.CreateCompanyTest">
+        <methods>
+          <include name="AddLogFileToReport"/>
+          <include name="initializeBaseSetup"/>
+          <include name="CloseBrowser"/>
+          <include name="beforeSuite"/>
+          <include name="createCompanyWithPublicAccess"/>
+        </methods>
+      </class> <!-- com.slokam.test.automation.testscripts.basic.CreateCompanyTest -->
+    </classes>
+  </test> <!-- registration(failed) -->
+</suite> <!-- Failed suite [OpenProject] -->

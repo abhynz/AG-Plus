@@ -1,0 +1,16 @@
+package com.slokam.test.automation.common.pages;
+
+import org.openqa.selenium.WebDriver;
+
+import com.slokam.test.automation.common.locators.Locators;
+import com.slokam.test.automation.common.selenium.SafeActions;
+
+public class LoginPage  extends SafeActions implements Locators {
+
+	WebDriver driver ;
+	public LoginPage(WebDriver driver) {
+		super(driver);
+		this.driver = driver;
+	}
+
+}

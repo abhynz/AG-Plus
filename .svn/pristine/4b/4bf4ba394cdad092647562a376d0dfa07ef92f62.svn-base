@@ -1,0 +1,24 @@
+package com.slokam.test.automation.common.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+
+public class ProjectsPage extends AdminstrationPage {
+	WebDriver driver;
+	public ProjectsPage(WebDriver driver) {
+		super(driver);
+		this.driver = driver;
+	}
+
+	
+	
+	public void verifyProjectPage(){
+		Assert.assertTrue(isElementPresent(By.xpath("//div[@id='admin-index']/h2")));
+	}
+	
+	public void clickOnFirstProject(){
+		safeClick(By.xpath("//div[@class='autoscroll']//td[@class='name']//a"), MEDIUMWAIT);
+	}
+	
+}

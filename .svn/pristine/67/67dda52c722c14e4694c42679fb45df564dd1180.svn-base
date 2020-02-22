@@ -1,0 +1,32 @@
+package com.slokam.test.automation.common.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+
+
+
+public class ProjectsSettingPage  extends AdminstrationPage{
+	WebDriver driver;
+	public ProjectsSettingPage(WebDriver driver) {
+		super(driver);
+		this.driver = driver;
+	}
+
+	
+	public void verifyProjectSettingsPage(){
+		Assert.assertTrue(isElementPresent(By.xpath("//h2")));
+	}
+	public void updateSummary(String summary){
+		safeClearAndType(By.id("project_summary"),summary);
+	}
+	public void updateProject(){
+		safeClick(By.name("commit"), LONGWAIT);
+	}
+	
+	public void verifyMessage(){
+		String expected = "Successful update.";
+		String actual = safeGetText(By.xpath("//div[@id='content']/div[@role='alert']"), SHORTWAIT);
+		Assert.assertEquals(actual, expected);
+	}
+}
