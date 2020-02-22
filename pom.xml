@@ -7,8 +7,8 @@
 	<name>autofm</name>
 
 	<properties>
-		<jee.level>1.7</jee.level>
-		<jdk.level>1.7</jdk.level>
+		<jee.level>1.8</jee.level>
+		<jdk.level>1.8</jdk.level>
 	</properties>
 	<build>
 
