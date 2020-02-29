@@ -39,10 +39,10 @@ public class ExcelManager
 	//private String fileSeperator = System.getProperty("file.separator");
 	
 	
-	*//**
+	/**
 	 * Purpose- Constructor to pass Excel file name
 	 * @param sFileName
-	 *//*
+	 */
 	public ExcelManager(String sFilePath)
 	{
 		try
@@ -157,13 +157,13 @@ public class ExcelManager
 		return 0;		
 	}
 	
-	*//**
-	 * Purpose- Returns the value from Excel based on Sheetname, column name, row value
+	
+	/* * Purpose- Returns the value from Excel based on Sheetname, column name, row value
 	 * @param sheetName - Sheet name should be provided
 	 * @param colName- Column Name should be provided
 	 * @param rowNum- Row value should be provided
 	 * @return
-	 *//*
+	 */*/
 	public String getCellDataXLSX(String sheetName,String colName,int rowNum)
 	{
 		try

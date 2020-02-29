@@ -14,7 +14,7 @@
           <include name="initializeBaseSetup"/>
           <include name="CloseBrowser"/>
           <include name="beforeSuite"/>
-          <include name="createCompanyWithPublicAccess"/>
+          <include name="createCompanyWithPublicAccess" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17"/>
         </methods>
       </class> <!-- com.slokam.test.automation.testscripts.basic.CreateCompanyTest -->
     </classes>

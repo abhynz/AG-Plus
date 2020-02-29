@@ -1,4 +1,4 @@
-package com.slokam.test.automation.testscripts.basic;
+/*package com.slokam.test.automation.testscripts.basic;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -39,9 +39,9 @@ public class RegistrationTest extends BaseSetup {
 		String actualErrorMessage = regPage.verifyErrorMessage();
 		Assert.assertEquals(actualErrorMessage, expectedErrorMessage , " Error message validation is failed.");
 		
-	/*	String actualError = regPage.verifyErrorLocation();
+		String actualError = regPage.verifyErrorLocation();
 		String expected = "user_password";
-		Assert.assertEquals(actualError, expected , "Error validation is in wrong place");*/
+		Assert.assertEquals(actualError, expected , "Error validation is in wrong place");
 		
 	}
 	
@@ -66,9 +66,9 @@ public class RegistrationTest extends BaseSetup {
 		String actualErrorMessage = regPage.verifyErrorMessage();
 		String expectedErrorMessage = "Password is too short (minimum is 8 characters)";
 		Assert.assertEquals(actualErrorMessage, expectedErrorMessage , " Error message validation is failed.");
-		/*String actualError = regPage.verifyErrorLocation();
+		String actualError = regPage.verifyErrorLocation();
 		String expected = "user_password";
-		Assert.assertEquals(actualError, expected , "Error validation is in wrong place");*/
+		Assert.assertEquals(actualError, expected , "Error validation is in wrong place");
 		
 	}
 	
@@ -96,9 +96,9 @@ public class RegistrationTest extends BaseSetup {
 		String actualErrorMessage = regPage.verifyErrorMessage();
 		String expectedErrorMessage = "Email is invalid";
 		Assert.assertEquals(actualErrorMessage, expectedErrorMessage , " Error message validation is failed.");
-/*		String actualError =regPage.verifyErrorLocation();
+		String actualError =regPage.verifyErrorLocation();
 		String expected = "user_mail";
-		Assert.assertEquals(actualError, expected , "Error validation is in wrong place");*/
+		Assert.assertEquals(actualError, expected , "Error validation is in wrong place");
 		
 	}
 	
@@ -120,7 +120,7 @@ public class RegistrationTest extends BaseSetup {
 		Assert.assertEquals(actualErrorMessage, expectedErrorMessage , " Error message validation is failed.");
 	}
 	
-	/*@DataProvider(name="userdata")
+	@DataProvider(name="userdata")
 	public Object[][] datap(){
 		//First Combination
 		UserDTO dto1 = new UserDTO();
@@ -164,7 +164,7 @@ public class RegistrationTest extends BaseSetup {
 		obj[2][1] = expectedErrorMessage3;
 		
 		return obj;
-	}*/
+	}
 	
 	
 	@DataProvider(name="userdata2")
@@ -202,3 +202,4 @@ public class RegistrationTest extends BaseSetup {
 		Assert.assertEquals(actualErrorMessage, expectedErrorMessage , " Error message validation is failed.");
 	}
 }
+*/

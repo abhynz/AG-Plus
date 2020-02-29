@@ -51,7 +51,7 @@ public interface Locators {
 	public static By CREATECOMPANY_INPUT_NAME = By.name("name");
 	public static By CREATECOMPANY_BTN_ACCESS = By.xpath("//form[contains(@class,'custom-form-container')]//button[contains(@class,'toggle')]/i");
 	public static By CREATECOMPANY_INPUT_WEBSITE = By.name("url");
-	public static By CREATECOMPANY_INPUT_ADDRESS = By.name("name");
+	public static By CREATECOMPANY_INPUT_ADDRESS = By.name("address");
 	public static By CREATECOMPANY_INPUT_CITY = By.name("city");
 	public static By CREATECOMPANY_INPUT_STATE = By.name("state");
 	public static By CREATECOMPANY_INPUT_ZIP = By.name("zip");

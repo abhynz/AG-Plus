@@ -97,6 +97,7 @@ public class BaseSetup implements TimeOuts
 	    	log.info("Initiated Webdriver...");
 	    	context.setAttribute("driver", driver);		
 			driver.manage().window().maximize();
+			
 		
 			(new Sync(driver)).setImplicitWait(IMPLICITWAIT);
     	}

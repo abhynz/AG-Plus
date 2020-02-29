@@ -2,44 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="OpenProject" duration-ms="26833" started-at="2020-02-22T06:07:35Z" finished-at="2020-02-22T06:08:02Z">
+  <suite name="Default suite" duration-ms="298" started-at="2020-02-29T10:39:55Z" finished-at="2020-02-29T10:39:55Z">
     <groups>
     </groups>
-    <test name="registration" duration-ms="26833" started-at="2020-02-22T06:07:35Z" finished-at="2020-02-22T06:08:02Z">
-      <class name="com.slokam.test.automation.testscripts.basic.CreateCompanyTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.slokam.test.automation.testscripts.basic.CreateCompanyTest@5b12b668]" name="beforeSuite" is-config="true" duration-ms="228" started-at="2020-02-22T11:37:35Z" finished-at="2020-02-22T11:37:35Z">
+    <test name="Default test" duration-ms="298" started-at="2020-02-29T10:39:55Z" finished-at="2020-02-29T10:39:55Z">
+      <class name="com.slokam.test.automation.testscripts.basic.countVOWELS">
+        <test-method status="PASS" signature="a()[pri:0, instance:com.slokam.test.automation.testscripts.basic.countVOWELS@36902638]" name="a" duration-ms="66" started-at="2020-02-29T16:09:55Z" finished-at="2020-02-29T16:09:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="initializeBaseSetup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.slokam.test.automation.testscripts.basic.CreateCompanyTest@5b12b668]" name="initializeBaseSetup" is-config="true" duration-ms="11079" started-at="2020-02-22T11:37:35Z" finished-at="2020-02-22T11:37:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@18324f97]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBaseSetup -->
-        <test-method status="PASS" signature="createCompanyWithPublicAccess()[pri:0, instance:com.slokam.test.automation.testscripts.basic.CreateCompanyTest@5b12b668]" name="createCompanyWithPublicAccess" duration-ms="14771" started-at="2020-02-22T11:37:46Z" finished-at="2020-02-22T11:38:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createCompanyWithPublicAccess -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.slokam.test.automation.testscripts.basic.CreateCompanyTest@5b12b668]" name="CloseBrowser" is-config="true" duration-ms="841" started-at="2020-02-22T11:38:01Z" finished-at="2020-02-22T11:38:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-        <test-method status="PASS" signature="AddLogFileToReport()[pri:0, instance:com.slokam.test.automation.testscripts.basic.CreateCompanyTest@5b12b668]" name="AddLogFileToReport" is-config="true" duration-ms="482" started-at="2020-02-22T11:38:02Z" finished-at="2020-02-22T11:38:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddLogFileToReport -->
-      </class> <!-- com.slokam.test.automation.testscripts.basic.CreateCompanyTest -->
-    </test> <!-- registration -->
-  </suite> <!-- OpenProject -->
+        </test-method> <!-- a -->
+      </class> <!-- com.slokam.test.automation.testscripts.basic.countVOWELS -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

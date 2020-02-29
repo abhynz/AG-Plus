@@ -25,16 +25,16 @@ public class CreateCompanyPage extends SafeActions implements Locators {
 	
 	
 	public void createPublicAccessCompany(String name, String website, String address,
-			String city, String state, String zip, String countryName) throws InterruptedException{
+			String city, String state, String zip) throws InterruptedException{
 		safeType(CREATECOMPANY_INPUT_NAME, name, 2);
 		safeType(CREATECOMPANY_INPUT_WEBSITE, website, 2);
 		safeType(CREATECOMPANY_INPUT_ADDRESS, address, 2);
 		safeType(CREATECOMPANY_INPUT_CITY, city, 2);
 		safeType(CREATECOMPANY_INPUT_STATE, state, 2);
 		safeType(CREATECOMPANY_INPUT_ZIP, zip, 2);
-		safeClick(CREATECOMPANY_INPUT_COUNTRY, 2);
+		/*//safeClick(CREATECOMPANY_INPUT_COUNTRY, 2);
 		Thread.sleep(000);
-		safeSelectCountry(countryName);
+		safeSelectCountry(countryName);*/
 		
 	}
 	
