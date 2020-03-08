@@ -6,11 +6,11 @@ import java.util.Set;
 
 import org.testng.annotations.Test;
 
-public class A {
+public class RepeatedCharactersinString {
 
 	String str = "STRESS";
 
-	@Test
+	@Test(groups={"Collections","StringPrograms","Java"})
 	public void b(){
 
 		char[] chars = str.toCharArray();
@@ -33,14 +33,14 @@ public class A {
 		System.out.println(hmap);
 	
 	
-	for(int i=0;i<=size-1;i++){
+	/*for(int i=0;i<=size-1;i++){
 		
 		char k = str.charAt(i);
 		if(hmap.get(k) ==1){
 			System.out.println(hmap);
 		}
 		
-	}
+	}*/
 	
 	}
 

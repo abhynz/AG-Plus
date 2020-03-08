@@ -6,7 +6,7 @@ public class countVOWELS {
 
 	String str = "abhi on desk but we do";
 	
-	@Test
+	@Test(groups={"Java","ArrayPrograms"})
 	public void a(){
 		char chars[] = str.toCharArray();
 		int size = chars.length;
@@ -26,5 +26,9 @@ public class countVOWELS {
 		
 		System.out.println("Vowels are ::"+vowelCounter);
 		System.out.println("Constance are ::"+constanceCounter);
+		
+		//5459648820218064
+		
+		
 	}
 }

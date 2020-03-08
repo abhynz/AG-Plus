@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 public class MissingNumberinArray {
 
+	
 	public static int missingNumber(int[] arr)
 	{
 		int n=arr.length+1;
@@ -21,7 +22,9 @@ public class MissingNumberinArray {
 		return missingNumber;
 	}
 	
-	@Test
+	
+	
+	@Test(groups={"Java","ArrayPrograms"})
 	public void run(){
 		int[] arr1={7,5,6,1,4,2};
 		System.out.println("Missing number from array arr1: "+missingNumber(arr1));

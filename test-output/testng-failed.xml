@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.slokam.test.automation.testscripts.basic.Segregate0n1Main">
+      <class name="com.slokam.test.automation.testscripts.basic.PracticePage">
         <methods>
-          <include name="seperator"/>
+          <include name="msgWin"/>
         </methods>
-      </class> <!-- com.slokam.test.automation.testscripts.basic.Segregate0n1Main -->
+      </class> <!-- com.slokam.test.automation.testscripts.basic.PracticePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

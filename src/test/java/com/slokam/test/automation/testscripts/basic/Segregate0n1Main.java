@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class Segregate0n1Main {
 
-	@Test
+	@Test(groups={"Java","ArrayPrograms"})
 	public void seperator(){
 		/*int a[] = {1,0,1,0,1,0,1,0,0};
 		int count=0;

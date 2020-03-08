@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class GetSecondLargerstNum {
 
-	//@Test
+	@Test(groups={"Collections","Java"})
 	public void getsec(){
 
 		ArrayList<Integer> ar = new ArrayList<Integer>();
@@ -32,7 +32,7 @@ public class GetSecondLargerstNum {
 		
 	}
 	
-	//@Test
+	@Test(groups={"Collections","Java"})
 	public void getSec1(){
 		ArrayList<Integer> ar = new ArrayList<Integer>();
 		Set<Integer> t = new HashSet<Integer>();
@@ -55,7 +55,7 @@ public class GetSecondLargerstNum {
 		
 	}
 	
-	@Test
+	@Test(groups={"Collections","Java"})
 	public void hm(){
 		HashMap<String,String> hmap = new HashMap<String,String>();
 		hmap.put("Apple","kol");

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="298" started-at="2020-02-29T10:39:55Z" finished-at="2020-02-29T10:39:55Z">
+  <suite name="Default suite" duration-ms="1628" started-at="2020-03-05T05:27:02Z" finished-at="2020-03-05T05:27:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="298" started-at="2020-02-29T10:39:55Z" finished-at="2020-02-29T10:39:55Z">
-      <class name="com.slokam.test.automation.testscripts.basic.countVOWELS">
-        <test-method status="PASS" signature="a()[pri:0, instance:com.slokam.test.automation.testscripts.basic.countVOWELS@36902638]" name="a" duration-ms="66" started-at="2020-02-29T16:09:55Z" finished-at="2020-02-29T16:09:55Z">
+    <test name="Default test" duration-ms="1628" started-at="2020-03-05T05:27:02Z" finished-at="2020-03-05T05:27:04Z">
+      <class name="com.slokam.test.automation.testscripts.basic.Ex">
+        <test-method status="PASS" signature="colReader()[pri:0, instance:com.slokam.test.automation.testscripts.basic.Ex@36902638]" name="colReader" duration-ms="1420" started-at="2020-03-05T10:57:02Z" finished-at="2020-03-05T10:57:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- a -->
-      </class> <!-- com.slokam.test.automation.testscripts.basic.countVOWELS -->
+        </test-method> <!-- colReader -->
+      </class> <!-- com.slokam.test.automation.testscripts.basic.Ex -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

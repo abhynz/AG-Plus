@@ -11,7 +11,7 @@ public class FindDuplicate {
 
 	String str = "Java computer is where is Java";
 
-	@Test(enabled = false)
+	@Test(groups={"Collections","Java"})
 	public void hashMapDuplicateCheck(){
 
 		String arr[] = str.split(" ");

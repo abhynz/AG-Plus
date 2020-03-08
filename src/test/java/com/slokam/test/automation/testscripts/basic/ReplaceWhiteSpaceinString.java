@@ -9,14 +9,14 @@ public class ReplaceWhiteSpaceinString {
 	
 	String str = "abc def ghi";
 	
-	//@Test
+	@Test
 	public void a(){
 		
 		String str2 = str.replace(" ", "");
 		System.out.println(str2);
 	}
 	
-	@Test
+	@Test(groups={"Java","ArrayPrograms"})
 	public void b(){
 		
 		String[] s = str.split(" ");
