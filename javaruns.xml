@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="OpenProject" verbose="10" parallel="none"
+	thread-count="1">
+	
+	<listeners>
+	<listener class-name ="com.listener.TestListener"></listener>
+	</listeners>
+	<test name="JAVA TESTS">
+		<parameter name="browserType" value="chrome"></parameter>
+		<classes>
+			<class name="com.slokam.test.automation.testscripts.basic.CompressString"></class>
+		    <class name="com.slokam.test.automation.testscripts.basic.countVOWELS"></class>
+		    <class name="com.slokam.test.automation.testscripts.basic.FindDuplicate"></class>
+		    <class name="com.slokam.test.automation.testscripts.basic.GetSecondLargerstNum"></class>
+		    <class name="com.slokam.test.automation.testscripts.basic.MissingNumberinArray"></class>
+		    <class name="com.slokam.test.automation.testscripts.basic.RepeatedCharactersinString"></class>
+		    <class name="com.slokam.test.automation.testscripts.basic.ReplaceWhiteSpaceinString"></class>
+		    <class name="com.slokam.test.automation.testscripts.basic.Segregate0n1Main"></class>
+		   	
+		</classes>
+	</test>
+</suite>
